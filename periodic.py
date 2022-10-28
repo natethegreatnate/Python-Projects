@@ -37,7 +37,6 @@ def convert(string):
           out.append(arr[0]+i)
         else:
           arr.append(arr[0]+i)
-    print(arr[0])
     del arr[0]
   return out
 
